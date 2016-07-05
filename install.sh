@@ -43,14 +43,14 @@ echo "<?php phpinfo();?>" > /etc/skel/www/phpinfo.php
 echo "<h1>Hello World!!!</h1>" > /etc/skel/www/index.html
 mkdir -p /etc/nginx/perl
 cd /etc/nginx/perl
-wget https://raw.github.com/leduong/simple-hosting-ubuntu/master/etc/nginx/perl/Minify.pm
+wget https://raw.github.com/loiphamvn/hosting-ununtu/master/etc/nginx/perl/Minify.pm
 mkdir -p /root/conf
 cd /root/conf
-wget https://raw.github.com/leduong/simple-hosting-ubuntu/master/conf/domain.conf
-wget https://raw.github.com/leduong/simple-hosting-ubuntu/master/conf/php.conf
-wget https://raw.github.com/leduong/simple-hosting-ubuntu/master/conf/mysql.conf
+wget https://raw.github.com/loiphamvn/hosting-ununtu/master/conf/domain.conf
+wget https://raw.github.com/loiphamvn/hosting-ununtu/master/conf/php.conf
+wget https://raw.github.com/loiphamvn/hosting-ununtu/master/conf/mysql.conf
 cd /root
-wget https://raw.github.com/leduong/simple-hosting-ubuntu/master/addweb.sh
+wget https://raw.github.com/loiphamvn/hosting-ununtu/master/addweb.sh
 chmod +x addweb.sh 
 echo "finish, done"
 echo "/root/addweb.sh [enter] to create new webhosting"
